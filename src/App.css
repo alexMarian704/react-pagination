@@ -1,0 +1,32 @@
+#post{
+  width: 80vw;
+  height: 240px;
+  border: 2px solid black;
+  border-radius: 3px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+#paginationContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80vw;
+  margin: auto;
+}
+
+#pagination{
+  border: 2px solid black;
+  width: 8%;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-left: 2px;
+  margin-right: 2px;
+  text-align: center;
+  font-size: 17px;
+  transition: all 300ms;
+}
+
+#pagination:hover{
+  background-color: rgb(112, 112, 112);
+}
